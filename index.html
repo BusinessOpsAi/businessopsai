@@ -1,39 +1,682 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BusinessOps AI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BusinessOps AI provides managed AI lead-response pilots that help service businesses respond faster, follow up consistently, route sensitive cases to human review, and improve owner visibility.">
+  <meta name="theme-color" content="#070b08">
+  <title>BusinessOps AI | Managed AI Pilots for Service Teams</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<nav style="position: fixed; top: 0; width: 100%; background: #333; padding: 15px 0; z-index: 1000;">
-  <a href="#" style="color: white; margin: 0 20px; text-decoration: none; font-weight: bold;">Home</a>
-  <a href="#services" style="color: white; margin: 0 20px; text-decoration: none;">Services</a>
-  <a href="#about" style="color: white; margin: 0 20px; text-decoration: none;">About</a>
-  <a href="#contact" style="color: white; margin: 0 20px; text-decoration: none;">Contact</a>
-</nav>
-<section style="text-align: center; padding: 100px 20px;">
-  <h1>Welcome to BusinessOps AI</h1>
-  <p>Your AI-powered lead and operations partner.</p>
-  <a href="#" style="padding: 10px 20px; background-color: #007BFF; color: #fff; text-decoration: none; border-radius: 5px;">Get Started</a>
-</section> 
-<section id="services" style="padding: 100px 20px;">
-  <h2 style="text-align: center;">Our Services</h2>
-  <ul style="list-style: none; padding: 0; text-align: center;">
-    <li style="margin: 20px 0;">AI Lead Response</li>
-    <li style="margin: 20px 0;">Automated Admin Tasks</li>
-    <li style="margin: 20px 0;">Business Operations Insights</li>
-  </ul>
-</section>
-<section id="about" style="padding: 100px 20px; background-color: #f9f9f9;">
-  <h2 style="text-align: center;">About Us</h2>
-  <p style="max-width: 600px; margin: 20px auto; text-align: center;">
-    BusinessOps AI is dedicated to helping small businesses automate lead response and streamline operations with intelligent systems.
-  </p>
-</section>
-<section id="contact" style="padding: 100px 20px; text-align: center;">
-  <h2>Contact Us</h2>
-  <p>Email us at: <a href="mailto:info@businessops.ai">info@businessops.ai</a></p>
-</section>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="container nav-shell">
+      <a class="brand" href="#top" aria-label="BusinessOps AI home">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span class="brand-copy">
+          <strong>BusinessOps AI</strong>
+          <span>Managed pilots for service teams</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-site-nav>
+        <a href="#platform">Platform</a>
+        <a href="#outcomes">Outcomes</a>
+        <a href="#how-it-works">How it Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a class="mobile-nav-action" href="tel:2094005825">Call 209-400-5825</a>
+        <a class="mobile-nav-action" href="https://docs.google.com/forms/d/e/1FAIpQLSeqKImtUpdh73TtYJK3ei0pAv8Gd3QELmhtklItyLwb80i5EQ/viewform?usp=header" target="_blank" rel="noopener">Request Pilot Review</a>
+        <a class="mobile-nav-action" href="assets/businessops-ai-demo-proof-pack.pdf" target="_blank" rel="noopener">View Sample Workflow</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSeqKImtUpdh73TtYJK3ei0pAv8Gd3QELmhtklItyLwb80i5EQ/viewform?usp=header" target="_blank" rel="noopener">Request Pilot Review</a>
+        <a class="btn btn-secondary" href="assets/businessops-ai-demo-proof-pack.pdf" target="_blank" rel="noopener">View Sample Workflow</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span>Managed AI lead-response pilots</p>
+          <h1 id="hero-title">Respond faster without giving AI unlimited control.</h1>
+          <p class="hero-subheadline">BusinessOps AI helps service teams respond to leads, follow up consistently, and keep judgment calls under human control.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-large" href="https://docs.google.com/forms/d/e/1FAIpQLSeqKImtUpdh73TtYJK3ei0pAv8Gd3QELmhtklItyLwb80i5EQ/viewform?usp=header" target="_blank" rel="noopener">Request Pilot Review</a>
+            <a class="btn btn-secondary btn-large" href="assets/businessops-ai-demo-proof-pack.pdf" target="_blank" rel="noopener">View Sample Workflow</a>
+            <button class="btn btn-ghost btn-large" type="button" data-open-question>Ask a Question</button>
+          </div>
+          <p class="cta-note reveal">Built for service businesses. Pilots are scoped before setup with human-review checkpoints, usage-aware workflows, and no unlimited AI control.</p>
+
+          <div class="hero-stats" aria-label="BusinessOps AI pilot highlights">
+            <article>
+              <strong>Fast first touch</strong>
+              <span>defined response target</span>
+            </article>
+            <article>
+              <strong>Managed pilot</strong>
+              <span>lead response</span>
+            </article>
+            <article>
+              <strong>Human-reviewed</strong>
+              <span>automation</span>
+            </article>
+            <article>
+              <strong>Built for</strong>
+              <span>service businesses</span>
+            </article>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-label="AI workflow preview">
+          <div class="dashboard-card">
+            <div class="dashboard-topbar">
+              <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+              <span class="live-pill"><span></span> Pilot workflow live</span>
+            </div>
+
+            <div class="workflow-preview">
+              <div class="workflow-track" aria-hidden="true"></div>
+              <article class="workflow-step active">
+                <span class="step-dot"></span>
+                <div>
+                  <p>New lead received</p>
+                  <small>Website form, missed call, or referral inquiry captured.</small>
+                </div>
+              </article>
+              <article class="workflow-step">
+                <span class="step-dot"></span>
+                <div>
+                  <p>Lead details sorted</p>
+                  <small>Intent, urgency, service type, and review needs are organized.</small>
+                </div>
+              </article>
+              <article class="workflow-step">
+                <span class="step-dot"></span>
+                <div>
+                  <p>Follow-up sent</p>
+                  <small>Approved response logic keeps the lead moving quickly.</small>
+                </div>
+              </article>
+              <article class="workflow-step">
+                <span class="step-dot"></span>
+                <div>
+                  <p>Next step prepared</p>
+                  <small>Approved leads get a clear booking or follow-up path.</small>
+                </div>
+              </article>
+              <article class="workflow-step">
+                <span class="step-dot"></span>
+                <div>
+                  <p>Owner summary generated</p>
+                  <small>Key details are routed for review and follow-through.</small>
+                </div>
+              </article>
+            </div>
+
+            <div class="dashboard-insights">
+              <div>
+                <span>Response target</span>
+                <strong>Defined before launch</strong>
+              </div>
+              <div>
+                <span>Review mode</span>
+                <strong>Human approval</strong>
+              </div>
+              <div>
+                <span>Status</span>
+                <strong>Ready for pilot</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="capability-strip" aria-label="BusinessOps AI operating strengths">
+      <div class="container capability-grid reveal">
+        <span>Fast pilot deployment</span>
+        <span>Consistent follow-up logic</span>
+        <span>Human-review checkpoints</span>
+        <span>Usage-aware workflows</span>
+      </div>
+    </section>
+
+    <section class="section mission-section" aria-labelledby="mission-title">
+      <div class="container mission-card reveal">
+        <p class="section-kicker">Mission</p>
+        <h2 id="mission-title">BusinessOps AI provides managed AI lead-response pilots for service businesses that need faster responses, steadier follow-up, human review for risky or unclear requests, owner summaries, and cleaner activity logs.</h2>
+      </div>
+    </section>
+
+    <section class="section" id="platform" aria-labelledby="platform-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">Platform</p>
+            <h2 id="platform-title">A managed lead-response pilot for the work between inquiry and booked job.</h2>
+          </div>
+          <p>BusinessOps AI installs practical workflows around your existing process so lead responses, follow-ups, human-review handoffs, owner updates, and logs move with less manual drag.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span class="feature-icon">01</span>
+            <h3>Lead response engine</h3>
+            <p>Capture new inquiries, qualify intent, draft approved next steps, and keep prospects from waiting while your team is in the field.</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-icon amber">02</span>
+            <h3>Follow-up automation</h3>
+            <p>Send controlled follow-up for safe pending leads while routing edge cases to the owner or team for review.</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-icon coral">03</span>
+            <h3>Operations intelligence</h3>
+            <p>Bring important lead and workflow activity into concise owner views, status summaries, and review-ready reports.</p>
+          </article>
+          <article class="feature-card reveal">
+            <span class="feature-icon blue">04</span>
+            <h3>Owner visibility</h3>
+            <p>Give owner-operators a clearer picture of what happened, what needs attention, and where follow-up is slowing down.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contrast" id="lead-loss" aria-labelledby="lead-loss-title">
+      <div class="container split-layout">
+        <div class="reveal">
+          <p class="section-kicker">Why leads slip</p>
+          <h2 id="lead-loss-title">Most service businesses do not lose leads because they lack demand. They lose them in the handoff.</h2>
+          <p class="section-copy">Calls arrive during jobs, forms sit too long, customer details live in different places, and follow-up depends on whoever remembers next. BusinessOps AI helps install structure around those moments.</p>
+        </div>
+
+        <div class="problem-grid">
+          <article class="problem-card reveal"><span></span>Slow response</article>
+          <article class="problem-card reveal"><span></span>Missed calls or forms</article>
+          <article class="problem-card reveal"><span></span>Inconsistent follow-up</article>
+          <article class="problem-card reveal"><span></span>Scattered information</article>
+          <article class="problem-card reveal"><span></span>Unclear handoffs</article>
+          <article class="problem-card reveal"><span></span>Owner bottlenecks</article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="outcomes" aria-labelledby="outcomes-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-kicker">Outcomes</p>
+            <h2 id="outcomes-title">Practical improvements your team can feel during the pilot.</h2>
+          </div>
+          <p>These are operating benefits the pilot is designed to support. Results depend on workflow scope, lead volume, tool access, and team adoption.</p>
+        </div>
+
+        <div class="outcome-grid">
+          <article class="outcome-card reveal">
+            <h3>Designed to improve response consistency</h3>
+            <p>New inquiries can follow a defined first-touch process instead of depending on whoever is available.</p>
+          </article>
+          <article class="outcome-card reveal">
+            <h3>Helps reduce missed opportunities</h3>
+            <p>Structured response and review points help reduce gaps that cause prospects to drift.</p>
+          </article>
+          <article class="outcome-card reveal">
+            <h3>Helps organize follow-up</h3>
+            <p>Approved sequences help reduce one-off messages, unclear next steps, and forgotten responses.</p>
+          </article>
+          <article class="outcome-card reveal">
+            <h3>Helps reduce repetitive admin drag</h3>
+            <p>Routine updates, summaries, and reminders can be prepared with less manual effort.</p>
+          </article>
+          <article class="outcome-card reveal">
+            <h3>Helps create better handoffs</h3>
+            <p>Lead details, urgency, and ownership can be routed more consistently.</p>
+          </article>
+          <article class="outcome-card reveal">
+            <h3>Helps owners see what is happening</h3>
+            <p>Owners can review follow-up activity, workflow status, and attention areas more clearly.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contrast" id="how-it-works" aria-labelledby="how-title">
+      <div class="container">
+        <div class="section-heading narrow reveal">
+          <p class="section-kicker">How it works</p>
+          <h2 id="how-title">A focused pilot that starts scoped, approved, and reviewable.</h2>
+          <p>The pilot path is built to define rules before setup, test the workflow before go-live, and monitor usage and support requests once active.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-step reveal">
+            <span>1</span>
+            <div>
+              <h3>Request Pilot Review</h3>
+              <p>Share your service business, lead sources, current response process, and the workflow problems you want to solve.</p>
+            </div>
+          </article>
+          <article class="timeline-step reveal">
+            <span>2</span>
+            <div>
+              <h3>Scope workflow and rules</h3>
+              <p>Define lead types, service area, response limits, follow-up timing, escalation rules, and human-review checkpoints.</p>
+            </div>
+          </article>
+          <article class="timeline-step reveal">
+            <span>3</span>
+            <div>
+              <h3>Recommend pilot level</h3>
+              <p>Select the pilot level based on workflow complexity, expected usage volume, integrations, and support needs.</p>
+            </div>
+          </article>
+          <article class="timeline-step reveal">
+            <span>4</span>
+            <div>
+              <h3>Configure and test agents</h3>
+              <p>Set up the selected lead-response, follow-up, escalation, summary, support, and logging pieces for review.</p>
+            </div>
+          </article>
+          <article class="timeline-step reveal">
+            <span>5</span>
+            <div>
+              <h3>Go-live after approval</h3>
+              <p>Launch only after the workflow, response boundaries, support process, and testing checklist are approved.</p>
+            </div>
+          </article>
+          <article class="timeline-step reveal">
+            <span>6</span>
+            <div>
+              <h3>Monitor usage and support requests</h3>
+              <p>Review activity, usage patterns, support requests, errors, and plan-fit recommendations during the active pilot.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="ai-handles" aria-labelledby="handles-title">
+      <div class="container split-layout reverse">
+        <div class="reveal">
+          <p class="section-kicker">What the pilot can include</p>
+          <h2 id="handles-title">A managed workflow kit for lead handling, review, support, and logging.</h2>
+          <p class="section-copy">BusinessOps AI focuses the pilot on repeatable service-business workflows with defined rules, human-review checkpoints, usage-aware limits, and a support request process for active pilot clients.</p>
+        </div>
+
+        <div class="task-grid">
+          <span class="reveal">Lead Response Agent</span>
+          <span class="reveal">Human Review / Escalation logic</span>
+          <span class="reveal">Follow-Up Agent</span>
+          <span class="reveal">Owner Summary Agent</span>
+          <span class="reveal">Client Support Request Form</span>
+          <span class="reveal">Support Agent v1</span>
+          <span class="reveal">Lead_Log</span>
+          <span class="reveal">Usage_Log</span>
+          <span class="reveal">Support_Log</span>
+          <span class="reveal">Error_Log</span>
+          <span class="reveal">Go-live testing checklist</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section approval-section" id="approval" aria-labelledby="approval-title">
+      <div class="container approval-card reveal">
+        <div>
+          <p class="section-kicker">Human review</p>
+          <h2 id="approval-title">Risky, unclear, or sensitive requests stay inside clear review boundaries.</h2>
+          <p>The pilot can draft, sort, summarize, and route routine lead activity. It should route exact quote requests, services not offered, outside service area, refunds, discounts, billing questions, complaints, angry customers, damage, injury, legal issues, and low-confidence responses to human review.</p>
+        </div>
+        <div class="approval-list">
+          <span>Exact quote requests</span>
+          <span>Services not offered</span>
+          <span>Outside service area</span>
+          <span>Refunds, discounts, or billing questions</span>
+          <span>Complaints or angry customers</span>
+          <span>Damage, injury, or legal issues</span>
+          <span>Low-confidence responses</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sample-workflow-section" id="sample-workflow" aria-labelledby="sample-workflow-title">
+      <div class="container">
+        <div class="section-heading sample-workflow-heading reveal">
+          <div>
+            <p class="section-kicker">Sample Workflow</p>
+            <h2 id="sample-workflow-title">See the system in action</h2>
+          </div>
+          <p>Review a sample workflow showing how BusinessOps AI handles safe lead response, human-review routing, follow-up automation, owner alerts, and summary reporting.</p>
+        </div>
+
+        <div class="proof-grid">
+          <article class="proof-card reveal">
+            <span class="proof-step">01</span>
+            <h3>Safe auto-reply</h3>
+            <p>In-area leads receive a professional response with a booking path.</p>
+          </article>
+          <article class="proof-card reveal">
+            <span class="proof-step amber">02</span>
+            <h3>Human-review routing</h3>
+            <p>Out-of-area or sensitive requests are held for owner review.</p>
+          </article>
+          <article class="proof-card reveal">
+            <span class="proof-step coral">03</span>
+            <h3>Follow-up automation</h3>
+            <p>Safe pending leads receive a controlled follow-up so they do not go cold.</p>
+          </article>
+          <article class="proof-card reveal">
+            <span class="proof-step blue">04</span>
+            <h3>Owner visibility</h3>
+            <p>Lead activity is summarized into clear metrics and next actions.</p>
+          </article>
+        </div>
+
+        <div class="sample-workflow-actions reveal">
+          <a class="btn btn-primary btn-large" href="https://docs.google.com/forms/d/e/1FAIpQLSeqKImtUpdh73TtYJK3ei0pAv8Gd3QELmhtklItyLwb80i5EQ/viewform?usp=header" target="_blank" rel="noopener">Request Pilot Review</a>
+          <a class="btn btn-secondary btn-large" href="assets/businessops-ai-demo-proof-pack.pdf" target="_blank" rel="noopener">View Sample Workflow</a>
+          <button class="btn btn-ghost btn-large" type="button" data-open-question>Ask a Question</button>
+        </div>
+
+        <p class="cta-note sample-cta-note reveal">Pilots are scoped before setup so the workflow can be configured safely for your business.</p>
+        <p class="sample-workflow-note reveal">Sample workflow using a test landscaping business. Not a client claim.</p>
+      </div>
+    </section>
+
+    <section class="section section-contrast" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-heading pricing-heading reveal">
+          <div>
+            <p class="section-kicker">Pilot pricing</p>
+            <h2 id="pricing-title">Managed AI pilots built for early validation.</h2>
+          </div>
+          <p>Pilots are scoped before setup. Pricing depends on workflow complexity, usage volume, integrations, and support needs.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card reveal">
+            <span class="plan-badge">Starter Pilot</span>
+            <h3>Starter Pilot</h3>
+            <p>For one main lead workflow, basic auto-reply, human review, one follow-up, owner summary, and a defined monthly usage allowance.</p>
+            <div class="plan-price">$300 setup <small>+ $300/month</small></div>
+            <ul class="plan-list">
+              <li><span class="check" aria-hidden="true">&check;</span>One main lead workflow</li>
+              <li><span class="check" aria-hidden="true">&check;</span>Basic approved auto-reply</li>
+              <li><span class="check" aria-hidden="true">&check;</span>Human-review routing</li>
+              <li><span class="check" aria-hidden="true">&check;</span>One controlled follow-up</li>
+              <li><span class="check" aria-hidden="true">&check;</span>Owner summary</li>
+              <li><span class="check" aria-hidden="true">&check;</span>Defined monthly usage allowance</li>
+            </ul>
+            <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSeqKImtUpdh73TtYJK3ei0pAv8Gd3QELmhtklItyLwb80i5EQ/viewform?usp=header" target="_blank" rel="noopener">Request Pilot Review</a>
+          </article>
+
+          <article class="pricing-card reveal">
+            <span class="plan-badge">Most Popular</span>
+            <h3>Growth Pilot</h3>
+            <p>For higher lead volume, stronger follow-up, more reporting, and more workflow coverage.</p>
+            <div class="plan-price">$750 setup <small>+ $750/month</small></div>
+            <ul class="plan-list">
+              <li><span class="check" aria-hidden="true">&check;</span>Everything in Starter Pilot</li>
+              <li><span class="check" aria-hidden="true">&check;</span>Higher lead-volume allowance</li>
+              <li><span class="check" aria-hidden="true">&check;</span>Stronger follow-up coverage</li>
+              <li><span class="check" aria-hidden="true">&check;</span>More lead categories and routing rules</li>
+              <li><span class="check" aria-hidden="true">&check;</span>CRM or sheet logging</li>
+              <li><span class="check" aria-hidden="true">&check;</span>Expanded owner reporting</li>
+              <li><span class="check" aria-hidden="true">&check;</span>Usage and workflow review</li>
+            </ul>
+            <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSeqKImtUpdh73TtYJK3ei0pAv8Gd3QELmhtklItyLwb80i5EQ/viewform?usp=header" target="_blank" rel="noopener">Request Pilot Review</a>
+          </article>
+
+          <article class="pricing-card reveal">
+            <span class="plan-badge warm">Custom Ops</span>
+            <h3>Custom Ops</h3>
+            <p>For multi-step workflows, deeper integrations, SMS, CRM/calendar needs, multiple locations, or special approval logic.</p>
+            <div class="plan-price">Scoped after review <small>Custom Ops setup is quoted after review. Deeper integrations typically start around $1,500, but smaller custom add-ons may be scoped separately.</small></div>
+            <ul class="plan-list">
+              <li><span class="check" aria-hidden="true">&check;</span>Multi-step workflow mapping</li>
+              <li><span class="check" aria-hidden="true">&check;</span>Special approval logic</li>
+              <li><span class="check" aria-hidden="true">&check;</span>SMS, CRM, or calendar planning</li>
+              <li><span class="check" aria-hidden="true">&check;</span>Deeper integration review</li>
+              <li><span class="check" aria-hidden="true">&check;</span>Multiple-location support planning</li>
+              <li><span class="check" aria-hidden="true">&check;</span>Custom pilot roadmap</li>
+            </ul>
+            <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSeqKImtUpdh73TtYJK3ei0pAv8Gd3QELmhtklItyLwb80i5EQ/viewform?usp=header" target="_blank" rel="noopener">Request Pilot Review</a>
+          </article>
+        </div>
+
+        <p class="pricing-note reveal">Pilots are scoped before setup. Pricing depends on workflow complexity, usage volume, integrations, and support needs.</p>
+        <p class="pricing-note reveal">Essential lead handling should not silently stop when usage increases. If a workflow approaches its included allowance, BusinessOps AI reviews usage with the client and can recommend overage handling or a plan adjustment.</p>
+        <p class="cta-note pricing-cta-note reveal">Every pilot is reviewed and scoped before setup.</p>
+        <p class="pricing-note reveal">Support requests are available for active pilot clients. Low-priority questions are logged and acknowledged. Urgent workflow issues and active lead-handling problems are escalated internally.</p>
+      </div>
+    </section>
+
+    <section class="section" id="security" aria-labelledby="security-title">
+      <div class="container security-layout">
+        <div class="reveal">
+          <p class="section-kicker">Security and control</p>
+          <h2 id="security-title">Controlled AI systems with reviewable actions and clear operating boundaries.</h2>
+          <p class="section-copy">The pilot is scoped around limited access, approved workflows, practical review points, and usage-aware limits. BusinessOps AI does not position AI as an unchecked operator or a replacement for staff.</p>
+        </div>
+        <div class="security-grid">
+          <article class="security-card reveal"><h3>Controlled rollout</h3><p>Start with a narrow workflow and expand only after review.</p></article>
+          <article class="security-card reveal"><h3>Limited access</h3><p>Connect only the tools and data needed for the selected pilot scope.</p></article>
+          <article class="security-card reveal"><h3>Human-reviewed workflows</h3><p>Exact quotes, complaints, refunds, discounts, billing questions, outside-area requests, and low-confidence cases can be routed for review before customer-facing steps.</p></article>
+          <article class="security-card reveal"><h3>Approval checkpoints</h3><p>Sensitive decisions require a person before action is taken.</p></article>
+          <article class="security-card reveal"><h3>Action logs</h3><p>Workflow activity can be structured so owners can inspect what happened.</p></article>
+          <article class="security-card reveal"><h3>No unlimited AI control</h3><p>Operating boundaries define what AI can suggest, draft, route, log, or update.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-contrast" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-layout">
+        <div class="reveal">
+          <p class="section-kicker">FAQ</p>
+          <h2 id="faq-title">Questions a cautious owner should ask before starting.</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="reveal">
+            <summary>Is this just a chatbot?</summary>
+            <p>No. BusinessOps AI focuses on managed lead-response pilots around first replies, follow-up, human-review routing, owner summaries, and operational visibility. Chat can be one part of the system, but the value is in the workflow design and oversight.</p>
+          </details>
+          <details class="reveal">
+            <summary>What businesses is this for?</summary>
+            <p>It is built for local service businesses, home service teams, field service teams, agencies, owner-operators, and small teams that miss leads or struggle with follow-up.</p>
+          </details>
+          <details class="reveal">
+            <summary>Will AI replace my team?</summary>
+            <p>No. The pilot is designed to support your team by handling repetitive lead-response work, preparing information, and routing sensitive cases for review. Human judgment remains important for exact quote requests, services not offered, outside-service-area requests, refunds, discounts, billing questions, complaints, angry customers, damage, injury, legal issues, and low-confidence responses.</p>
+          </details>
+          <details class="reveal">
+            <summary>How does the pilot work?</summary>
+            <p>BusinessOps AI starts with a pilot review, scopes workflow rules, recommends the pilot level, configures and tests agents, launches after approval, then monitors usage and support requests.</p>
+          </details>
+          <details class="reveal">
+            <summary>How long does setup take?</summary>
+            <p>Setup timing depends on workflow scope, lead sources, tool access, and integration complexity. Simple pilots are designed to move quickly after discovery and access are complete.</p>
+          </details>
+          <details class="reveal">
+            <summary>Can this work with my current tools?</summary>
+            <p>In many cases, yes. The pilot can be scoped around common tools such as email, forms, calendars, CRMs, spreadsheets, and task systems, depending on access and workflow requirements.</p>
+          </details>
+          <details class="reveal">
+            <summary>What does human approval mean?</summary>
+            <p>Human approval means certain actions are drafted, routed, or flagged for a person to review before they are finalized, especially exact quote requests, services not offered, outside service area, refunds, discounts, billing questions, complaints, angry customers, damage, injury, legal issues, and low-confidence responses.</p>
+          </details>
+          <details class="reveal">
+            <summary>What happens if usage grows?</summary>
+            <p>Plans include monthly usage allowances. Essential lead handling should not silently stop when usage increases; BusinessOps AI reviews usage with the client and can recommend overage handling or a plan adjustment.</p>
+          </details>
+          <details class="reveal">
+            <summary>Can you build a custom workflow?</summary>
+            <p>Yes. Custom Ops work is scoped after review. Deeper integrations typically start around $1,500, but smaller custom add-ons may be scoped separately.</p>
+          </details>
+          <details class="reveal">
+            <summary>How do support requests work?</summary>
+            <p>Support requests are available for active pilot clients. Low-priority questions are logged and acknowledged. Urgent workflow issues and active lead-handling problems are escalated internally.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-layout">
+        <div class="contact-copy reveal">
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">Pilot Review or Contact</h2>
+          <p class="section-copy">Use the pilot review form when you are ready to scope a workflow. For quick questions, use Ask a Question. A demo call is optional and can walk through the sample workflow after you decide whether a managed pilot may fit.</p>
+          <div class="contact-methods">
+            <a href="mailto:businessopsai@gmail.com">businessopsai@gmail.com</a>
+            <a href="tel:2094005825">209-400-5825</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqKImtUpdh73TtYJK3ei0pAv8Gd3QELmhtklItyLwb80i5EQ/viewform?usp=header" target="_blank" rel="noopener">Request Pilot Review</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="pilot-form" novalidate>
+          <div class="form-grid">
+            <label>
+              Name
+              <input type="text" name="name" autocomplete="name" required>
+            </label>
+            <label>
+              Business name
+              <input type="text" name="businessName" autocomplete="organization" required>
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" autocomplete="tel" required>
+            </label>
+            <label>
+              Business type
+              <input type="text" name="businessType" placeholder="Home service, agency, field team..." required>
+            </label>
+            <label>
+              Selected plan
+              <select name="selectedPlan" required>
+                <option value="">Choose a plan</option>
+                <option>Starter Pilot</option>
+                <option>Growth Pilot</option>
+                <option>Custom Ops</option>
+                <option>Not sure yet</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            Main pain point
+            <input type="text" name="painPoint" placeholder="Slow response, missed leads, admin follow-up..." required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell us what is happening today and what you want to improve."></textarea>
+          </label>
+          <button class="btn btn-primary btn-large" type="submit">Send Message</button>
+          <p class="form-note" id="pilot-form-note" role="status">Required fields are marked by the form labels. Your email app will open before anything is sent.</p>
+          <div class="fallback-message" id="pilot-fallback" hidden>
+            <div class="fallback-header">
+              <strong>Copyable request</strong>
+              <button type="button" class="copy-button" data-copy-target="pilot-fallback-text">Copy message</button>
+            </div>
+            <textarea id="pilot-fallback-text" rows="9" readonly aria-label="Copyable pilot request message"></textarea>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="question-modal" id="question-modal" aria-hidden="true" inert>
+    <div class="modal-backdrop" data-close-question></div>
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="question-title" aria-describedby="question-description">
+      <button class="modal-close" type="button" aria-label="Close question form" data-close-question>&times;</button>
+      <p class="section-kicker">Ask a question</p>
+      <h2 id="question-title">Get a direct answer about your workflow.</h2>
+      <p id="question-description">Send the question you want answered before requesting a pilot.</p>
+      <form class="question-form" id="question-form" novalidate>
+        <label>
+          Name
+          <input type="text" name="questionName" autocomplete="name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="questionEmail" autocomplete="email" required>
+        </label>
+        <label>
+          Question
+          <textarea name="question" rows="5" required></textarea>
+        </label>
+        <button class="btn btn-primary" type="submit">Send Question</button>
+        <p class="form-note" id="question-form-note" role="status">This opens your email app with a prepared question.</p>
+        <div class="fallback-message" id="question-fallback" hidden>
+          <div class="fallback-header">
+            <strong>Copyable question</strong>
+            <button type="button" class="copy-button" data-copy-target="question-fallback-text">Copy message</button>
+          </div>
+          <textarea id="question-fallback-text" rows="8" readonly aria-label="Copyable question message"></textarea>
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="#top" aria-label="BusinessOps AI home">
+          <span class="brand-mark" aria-hidden="true">B</span>
+          <span class="brand-copy">
+            <strong>BusinessOps AI</strong>
+            <span>Managed pilots for service teams</span>
+          </span>
+        </a>
+        <p>BusinessOps AI provides managed AI lead-response pilots for service businesses that need faster replies, consistent follow-up, human-review routing, and better owner visibility.</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <h3>Navigate</h3>
+        <a href="#platform">Platform</a>
+        <a href="#outcomes">Outcomes</a>
+        <a href="#how-it-works">How it Works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <nav aria-label="Footer contact links">
+        <h3>Contact</h3>
+        <a href="tel:2094005825">209-400-5825</a>
+        <a href="mailto:businessopsai@gmail.com">businessopsai@gmail.com</a>
+        <button type="button" data-open-question>Ask a Question</button>
+      </nav>
+      <nav aria-label="Footer legal links">
+        <h3>Legal</h3>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <span>&copy; 2026 BusinessOps AI. All rights reserved.</span>
+      <span>Built for managed lead-response pilots, clear workflows, and human-reviewed automation.</span>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
 </body>
 </html>
